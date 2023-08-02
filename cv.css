@@ -1,0 +1,108 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Times New Roman", Times, serif;
+}
+.header {
+  width: 100%;
+  min-height: 100vh;
+  background-image: url(w03.jpg);
+  background-position: center;
+  background-size: cover;
+  padding: 10px 10%;
+  overflow: hidden;
+  position: relative;
+}
+nav {
+  padding: 10px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+nav ul li {
+  display: inline-block;
+  list-style: none;
+  margin: 10px 180px;
+}
+nav ul li a {
+  text-decoration: none;
+  color: black;
+  font-weight: 400;
+}
+.table-container {
+  margin-top: 20%;
+  max-width: 600px;
+}
+.table-container h2 {
+  font-size: 40px;
+  color: #222;
+}
+.table-container p {
+  margin: 10px 0 30px;
+  font-size: 20px;
+  color: #333;
+}
+.table-container .btn {
+  padding: 15px 80px;
+  display: inline-block;
+  text-decoration: none;
+  color: #000000;
+  background-image: linear-gradient(45deg, #1df28f, #03aff9);
+  font-size: 18px;
+  border-radius: 30px;
+}
+.btn:hover {
+  color: #ff00bf;
+}
+.My-image {
+  width: 850px;
+  position: absolute;
+  bottom: 0;
+  right: 0%;
+}
+.about {
+  margin-top: 10%;
+  margin-left: 40%;
+  margin-right: 20%;
+  max-width: 600px;
+}
+.about h1 {
+  font-size: 40px;
+  color: #222;
+}
+.about p {
+  margin: 10px 0 30px;
+  font-size: 18px;
+  color: #333;
+}
+.objective {
+  margin-top: 3%;
+  margin-left: 40%;
+  margin-right: 20%;
+  max-width: 600px;
+}
+.objective h1 {
+  font-size: 40px;
+  color: #222;
+}
+.objective p {
+  margin: 10px 0 30px;
+  font-size: 18px;
+  color: #333;
+}
+.contect {
+  margin-top: 20%;
+  margin-left: 40%;
+  margin-right: 20%;
+  max-width: 600px;
+}
+.contect h1 {
+  font-size: 40px;
+  color: #222;
+}
+.contect p {
+  margin: 10px 0 30px;
+  font-size: 18px;
+  color: #333;
+}
